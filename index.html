@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+    <h1>家計簿</h1>
+     <p>給料:<input type="text" name="payment" value=""></p>
+     <table>
+     <tr>
+        <th>共済</th>
+        <td>
+          <input type="text" name="input1" value="" onKeyup="calc()">
+        </td>
+     </tr>
+     <tr>
+        <th>カード</th>
+        <td>
+            <input type="text" name="input2" value="" onKeyup="calc()">
+        </td>
+     </tr>
+     <tr>
+        <th>奨学金</th>
+        <td>
+            <input type="text" name="input3" value="" onKeyup="calc()">
+        </td>
+     </tr>
+     <tr>
+        <th>交通費</th>
+        <td>
+            <input type="text" name="input4" value="" onKeyup="calc()">
+        </td>
+     </tr>
+     <tr>
+        <th>家賃+光熱費</th>
+        <td>
+            <input type="text" name="input5" value="" onKeyup="calc()">
+        </td>
+     </tr>
+    <tr>
+        <th>合計</th>
+        <td>
+            <input type="text" name="total" value="" readonly>
+        </td>
+    </tr>
+    <tr>
+        <th>残り</th>
+        <td>
+            <input type="text" name="rest" value="" readonly>
+        </td>
+    </tr>
+</table>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
